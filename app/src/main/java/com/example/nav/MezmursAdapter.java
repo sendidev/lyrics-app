@@ -122,7 +122,7 @@ public class MezmursAdapter extends RecyclerView.Adapter<MezmursAdapter.Mezmurho
 
                       ms.setFavs("1");
                       fdb.insertIntoTheDatabase(ms.getTitle(),
-                              ms.getId(), ms.getFavs());
+                              ms.getId(), ms.getFavs(),ms.getSong());
                       likebut.setBackgroundResource(R.drawable.red_favorite_24);
                       Toast.makeText(con1.getContext(), "you liked "+ms.getTitle(), Toast.LENGTH_SHORT).show();
                   } else {
@@ -148,7 +148,7 @@ fdb.insertEmpty();
         SharedPreferences pr=context.getSharedPreferences("Db",Context.MODE_PRIVATE);
          editor=pr.edit();
          editor.putBoolean("fstart",false);
-          editor.apply();
+         editor.apply();
     }
     private void readcorsordata(mezmurs ms, Mezmurholder mezmurholder) {
             Cursor cursor = fdb.readalldata(ms.getId());

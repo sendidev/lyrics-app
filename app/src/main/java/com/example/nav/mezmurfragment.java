@@ -81,7 +81,7 @@ private List<mezmurs> mezmurs=new ArrayList<>();
         mezmurs.add(new mezmurs("23","ካህን", R.string.berket,"0"));
         mezmurs.add(new mezmurs("24","ሀብተ ሰማይ ", R.string.berket,"0"));
         mezmurs.add(new mezmurs("25","ካህን", R.string.berket,"0"));
-        mezmurs.add(new mezmurs("26","ካህን", R.string.lorem_ipsum,"1"));
+
 
     }
 
@@ -116,18 +116,5 @@ private List<mezmurs> mezmurs=new ArrayList<>();
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

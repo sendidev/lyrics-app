@@ -5,14 +5,9 @@
         <item name="colorPrimary">#000000</item>
         <item name="colorPrimaryDark">@color/primaryacent</item>
         <item name="colorAccent">@color/primaryacent</item>
-
-
     </style>
 
     <style name="Theme.Nav" parent="Base.Theme.Nav" />
-
-
-
 
     <style name="SearchView" parent="">
         <item name="android:editTextColor">#030303</item>
@@ -50,7 +45,6 @@
     <style name="activitymezmurtoolbar">
         <item name="android:background">#4EC8FF</item>
     </style>
-
 
 
     <style name="tablayout">

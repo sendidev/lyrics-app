@@ -62,6 +62,10 @@ recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
                 String title = cursor.getString(cursor.getColumnIndex(FDB.ITEM_TITLE));
                 String id = cursor.getString(cursor.getColumnIndex (FDB.KEY_ID));
                 String favs = cursor.getString(cursor.getColumnIndex (FDB.FBS));
+             //   int song = cursor.getString(cursor.getColumnIndex (FDB.SONG));
+
+
+
                mezmurs mezmuritem = new mezmurs(id, title,R.string.berket,favs);
                mezmurs.add(mezmuritem);
 

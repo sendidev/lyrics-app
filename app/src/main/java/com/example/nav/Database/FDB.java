@@ -7,22 +7,23 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import com.example.nav.R;
+
 public class FDB extends SQLiteOpenHelper {
 
     private static int DB_VERSION = 1;
     private static String DB_NAME = "MEZMURDB";
     private static String table_name = "MEZMURDB";
-    private static String table_name2 = "mytable";
-
     public static String KEY_ID = "id";
     public static String ITEM_TITLE = "ITEMTITLE";
+
+    public static String SONG = "songs";
     public static String FBS = "fbs";
 
 
     // dont forget write this spaces
     private static String CREATE_TABLE = "CREATE TABLE " + table_name + "("
-            + KEY_ID + " TEXT," + ITEM_TITLE + " TEXT,"
-            + FBS + " TEXT)";
+            + KEY_ID + " TEXT," + ITEM_TITLE + " TEXT,"  + FBS + " TEXT)";
 
     public FDB(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -35,6 +36,9 @@ public class FDB extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+
+
+
     }
 
     // create empty table
@@ -47,22 +51,22 @@ public class FDB extends SQLiteOpenHelper {
       for (int x = 1; x < 11; x++) {
            cv.put(KEY_ID, x);
             cv.put(FBS, "0");
+          //  cv.put(SONG, R.string.berket);
             db.insert(table_name, null, cv);
         }
 
 
     }
 
-    public void insertIntoTheDatabase(String item_title, String id, String fav_status) {
+    public void insertIntoTheDatabase(String item_title, String id, String fav_status,int song) {
         SQLiteDatabase db;
         db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
-
         cv.put(KEY_ID, id);
         cv.put(ITEM_TITLE, item_title);
         cv.put(FBS, fav_status);
+      //  cv.put(SONG,song);
         db.insert(table_name, null, cv);
-
 
     }
 
@@ -90,4 +94,5 @@ public class FDB extends SQLiteOpenHelper {
 
 
     }
+
 }
