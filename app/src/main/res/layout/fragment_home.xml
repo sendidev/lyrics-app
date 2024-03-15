@@ -21,13 +21,13 @@
             android:id="@+id/mezmurs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mezmurs" />
+            android:text="ሁሉም መዝሙሮች" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/catagory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Catagory" />
+            android:text="የመዝሙሮች ምድብ" />
 
     </com.google.android.material.tabs.TabLayout>
 

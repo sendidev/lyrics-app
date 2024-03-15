@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.adventistmapp.nav'
+    namespace 'com.adventistmapp.mapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.adventistmapp.nav"
+        applicationId "com.adventistmapp.mapp"
         minSdk 24
         targetSdk 33
         versionCode 1

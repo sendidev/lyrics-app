@@ -45,14 +45,14 @@
             <TextView
                 android:id="@+id/titleac"
                 style="@style/ictextcolor"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="5dp"
                 android:gravity="center"
                 android:maxLines="1"
                 android:text="hi"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="italic"
                 android:transitionName="titlet"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -88,14 +88,14 @@
 
         <TextView
             android:id="@+id/mezmurtext"
+            style="@style/TEXTmezmurs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="30dp"
-            android:text="@string/berket"
+            android:text="@string/ለእግዚአብሔርሁሉይቻላል"
             android:textAlignment="inherit"
-            style="@style/TEXTmezmurs"
             android:textIsSelectable="true"
-            android:textSize="20sp" />
+            android:textSize="19sp" />
 
     </ScrollView>
 

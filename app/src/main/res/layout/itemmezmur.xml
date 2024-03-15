@@ -47,21 +47,20 @@
 
             <TextView
                 android:id="@+id/titlef2f"
+                style="@style/ictextcolor"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:text="hataitgna"
-               style="@style/ictextcolor"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="italic"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/aut"
                 app:layout_constraintEnd_toStartOf="@+id/imf3"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/idf1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.51" />
+                app:layout_constraintTop_toTopOf="parent" />
 
 
             <ImageView
@@ -76,6 +75,21 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.6"
                 app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+            <TextView
+                android:id="@+id/aut"
+                style="@style/ictextcolor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imf3"
+                app:layout_constraintHorizontal_bias="0.474"
+                app:layout_constraintStart_toEndOf="@+id/idf1"
+                app:layout_constraintTop_toBottomOf="@+id/titlef2f" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

@@ -23,7 +23,7 @@
 
 
     <style name="SCREEN">
-        <item name="android:background">#090909</item>
+        <item name="android:background">#222222</item>
     </style>
 
     <style name="catagory">
@@ -31,7 +31,7 @@
     </style>
 
     <style name="mezmuritems">
-        <item name="android:background">#323232</item>
+        <item name="android:background">#333333</item>
 
     </style>
 

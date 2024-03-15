@@ -22,9 +22,6 @@
             android:name=".NavigationitemsActivity.SetingActivity"
             android:exported="false" />
         <activity
-            android:name=".test"
-            android:exported="false" />
-        <activity
             android:name=".catagorym.wdase"
             android:exported="false" />
         <activity
@@ -36,9 +33,6 @@
             android:exported="true"
             android:windowSoftInputMode="adjustPan"
             >
-
-
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

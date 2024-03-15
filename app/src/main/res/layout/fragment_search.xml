@@ -12,15 +12,14 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/srearchbag"
         android:theme="@style/SearchView"
+        app:iconifiedByDefault="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:queryHint="Search here..."
-        android:background="@drawable/srearchbag"
-        android:layout_margin="10dp"
-        app:iconifiedByDefault="false"
-        >
+        app:queryHint="እዚህ ይፈልጉ">
 
     </androidx.appcompat.widget.SearchView>
 
