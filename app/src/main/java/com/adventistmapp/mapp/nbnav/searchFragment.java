@@ -162,7 +162,7 @@ if(filterdlist.isEmpty()){
 
         mezmurs.add(new mezmurs("29","አምላካችን ሆይ","የነገሌ አርሲ ቤ/ክ መዘምራን", R.string.አምላካችንሆይ,"0"));
 
-        mezmurs.add(new mezmurs("30","አምላኬ ከጐኔ ","ዘማሪ ገነቱ ጋጋዶ", R.string.አምላኬከጐኔ,"0"));
+        mezmurs.add(new mezmurs("30","አምላኬ ከጐኔ ቁምልኝ", "ዘማሪ ገነቱ ጋጋዶ",R.string.አምላኬከጐኔቁምልኝ,"0"));
 
         mezmurs.add(new mezmurs("31","አስጨናቂው ዘመን", "የሻሸመኔ ቤ/ክ መዘምራን",R.string.አስጨናቂውዘመን,"0"));
 
@@ -270,16 +270,15 @@ if(filterdlist.isEmpty()){
         mezmurs.add(new mezmurs("78","በክብር ላይ ክብር", "ዘማሪ ሞላልኝ ኃይሉ",R.string.በክብርላይክብር,"0"));
 
 
-        mezmurs.add(new mezmurs("79","አምላኬ ከጐኔ ቁምልኝ", "ዘማሪ ገነቱ ጋጋዶ",R.string.አምላኬከጐኔቁምልኝ,"0"));
 
 
-        mezmurs.add(new mezmurs("80","አቤቱ ሥራህ", "ዘማሪ ቹቹ አምባዬ",R.string.አቤቱሥራህ,"0"));
+        mezmurs.add(new mezmurs("79","አቤቱ ሥራህ", "ዘማሪ ቹቹ አምባዬ",R.string.አቤቱሥራህ,"0"));
 
 
-        mezmurs.add(new mezmurs("81","እባክህ አበርታኝ", "የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን",R.string.እባክህአበርታኝ,"0"));
+        mezmurs.add(new mezmurs("80","እባክህ አበርታኝ", "የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን",R.string.እባክህአበርታኝ,"0"));
 
 
-        mezmurs.add(new mezmurs("82","እኔን ላከኝ", "የአበላ ቤ/ክ መዘምራን",R.string.እኔንላከኝ,"0"));
+        mezmurs.add(new mezmurs("81","እኔን ላከኝ", "የአበላ ቤ/ክ መዘምራን",R.string.እኔንላከኝ,"0"));
 
 
 

@@ -33,12 +33,12 @@
 
             <TextView
                 android:id="@+id/idf1"
+                style="@style/ictextcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:text="1"
-                style="@style/ictextcolor"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imf3"
                 app:layout_constraintHorizontal_bias="0.087"
@@ -54,7 +54,7 @@
                 android:layout_marginEnd="10dp"
                 android:gravity="center"
                 android:text="hataitgna"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toTopOf="@+id/aut"
                 app:layout_constraintEnd_toStartOf="@+id/imf3"

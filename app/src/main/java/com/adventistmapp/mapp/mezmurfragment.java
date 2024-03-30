@@ -108,11 +108,11 @@ private List<mezmurs> mezmurs=new ArrayList<>();
 
          mezmurs.add(new mezmurs("22","በአዲስ አመት አዲስ ምስጋና", "ዘማሪ ኢያሱ ረጋሳ",R.string.በአዲስአመትአዲስምስጋና,"0"));
 
-         mezmurs.add(new mezmurs("23","በዚህ ጉባኤ","የአቦንሳ ቤ/ን መዘምራን", R.string.በዚህጉባኤ,"0"));
+         mezmurs.add(new mezmurs("23","በዚህ ጉባኤ","የአቦንሳ ቤ/ክ መዘምራን", R.string.በዚህጉባኤ,"0"));
 
-         mezmurs.add(new mezmurs("24","በገና መሰንቆ ይዘን","የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን", R.string.በገናመሰንቆይዘን,"0"));
+         mezmurs.add(new mezmurs("24","በገና መሰንቆ ይዘን","የሀዋሳ ታቦር ቤ/ክ መዘምራን", R.string.በገናመሰንቆይዘን,"0"));
 
-         mezmurs.add(new mezmurs("25","ብዙ ምስጋና አለኝ", "የሐዋሳ ታቦር ቤ/ክ መዘምራን",R.string.ብዙምስጋናአለኝ,"0"));
+         mezmurs.add(new mezmurs("25","ብዙ ምስጋና አለኝ", "የሀዋሳ ታቦር ቤ/ክ ዉዳሴ መዘምራን",R.string.ብዙምስጋናአለኝ,"0"));
 
          mezmurs.add(new mezmurs("26","ችግሬን በሱ ላይ ጥዬበት","የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን", R.string.ችግሬንበሱላይጥዬበት,"0"));
 
@@ -122,7 +122,7 @@ private List<mezmurs> mezmurs=new ArrayList<>();
 
          mezmurs.add(new mezmurs("29","አምላካችን ሆይ","የነገሌ አርሲ ቤ/ክ መዘምራን", R.string.አምላካችንሆይ,"0"));
 
-         mezmurs.add(new mezmurs("30","አምላኬ ከጐኔ ","ዘማሪ ገነቱ ጋጋዶ", R.string.አምላኬከጐኔ,"0"));
+         mezmurs.add(new mezmurs("30","አምላኬ ከጎኔ ቁምልኝ", "ዘማሪ ገነቱ ጋጋዶ",R.string.አምላኬከጐኔቁምልኝ,"0"));
 
          mezmurs.add(new mezmurs("31","አስጨናቂው ዘመን", "የሻሸመኔ ቤ/ክ መዘምራን",R.string.አስጨናቂውዘመን,"0"));
 
@@ -138,7 +138,7 @@ private List<mezmurs> mezmurs=new ArrayList<>();
 
          mezmurs.add(new mezmurs("37","አካሄደ ተበላሽቶ", "ዘማሪ ኢያሱ ረጋሳ",R.string.አካሄደተበላሽቶ,"0"));
 
-         mezmurs.add(new mezmurs("38","አዎን ባንተ","የሐዋሳ ታቦር መዘምራን", R.string.አዎንባንተ,"0"));
+         mezmurs.add(new mezmurs("38","አዎን ባንተ","የሀዋሳ ታቦር ቤ/ክ መዘምራን", R.string.አዎንባንተ,"0"));
 
          mezmurs.add(new mezmurs("39","አየሁ ማዳንህን","የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን", R.string.አየሁማዳንህን,"0"));
 
@@ -209,7 +209,9 @@ private List<mezmurs> mezmurs=new ArrayList<>();
 
 
 
-         mezmurs.add(new mezmurs("72","መስቀልህ", "የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን",R.string.መስቀልህ,"0"));
+
+
+         mezmurs.add(new mezmurs("72","መስቀልህ", "የሀዋሳ ታቦር ቤ/ክ መዘምራን",R.string.መስቀልህ,"0"));
 
          mezmurs.add(new mezmurs("73","መድሃኒቴ የሱስ", "ዘማሪ ጴጥሮስ ሐንዲሶ",R.string.መድሃኒቴየሱስ,"0"));
 
@@ -228,18 +230,15 @@ private List<mezmurs> mezmurs=new ArrayList<>();
          mezmurs.add(new mezmurs("78","በክብር ላይ ክብር", "ዘማሪ ሞላልኝ ኃይሉ",R.string.በክብርላይክብር,"0"));
 
 
-         mezmurs.add(new mezmurs("79","አምላኬ ከጐኔ ቁምልኝ", "ዘማሪ ገነቱ ጋጋዶ",R.string.አምላኬከጐኔቁምልኝ,"0"));
 
 
-         mezmurs.add(new mezmurs("80","አቤቱ ሥራህ", "ዘማሪ ቹቹ አምባዬ",R.string.አቤቱሥራህ,"0"));
+         mezmurs.add(new mezmurs("79","አቤቱ ሥራህ", "ዘማሪ ቹቹ አምባዬ",R.string.አቤቱሥራህ,"0"));
 
 
-         mezmurs.add(new mezmurs("81","እባክህ አበርታኝ", "የሐዋሳ ታቦር ቤ/ክ ውዳሴ መዘምራን",R.string.እባክህአበርታኝ,"0"));
+         mezmurs.add(new mezmurs("80","እባክህ አበርታኝ", "የሀዋሳ ታቦር ቤ/ክ መዘምራን",R.string.እባክህአበርታኝ,"0"));
 
 
-         mezmurs.add(new mezmurs("82","እኔን ላከኝ", "የአበላ ቤ/ክ መዘምራን",R.string.እኔንላከኝ,"0"));
-
-
+         mezmurs.add(new mezmurs("81","እኔን ላከኝ", "የሀዋሳ ታቦር ቤ/ክ መዘምራን",R.string.እኔንላከኝ,"0"));
 
 
 

@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     share.setType("text/plain");
                     share.addFlags (Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
                     share.putExtra (Intent.EXTRA_SUBJECT, "ለወዳጁ ያጋሩ");
-                    share.putExtra (Intent. EXTRA_TEXT, "https://github.com/sendidev/lyrics-app/releases/download/lyrics1.0/v1.apk");
+                    share.putExtra (Intent. EXTRA_TEXT, "https://github.com/sendidev/lyrics-app/releases/download/lyrics1.0/SDAmappv2.apk");
                     startActivity (Intent.createChooser (share,  "ለወዳጁ ያጋሩ"));
                     Toast.makeText(getApplicationContext(), "ለወዳጁ ያጋሩ", Toast.LENGTH_LONG).show();
 

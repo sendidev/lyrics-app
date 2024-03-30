@@ -51,7 +51,10 @@ public class catagoryFragment extends Fragment implements CatonClick {
     }
 
     private void in(){
+
+
         mc.add(new mezmurcat(R.drawable.sdalogo,"የሐዋሳ ታቦር ቤ/ክ መዘምራን"));
+
         mc.add(new mezmurcat(R.drawable.sdalogo,"ዘማሪ ኢያሱ ረጋሳ "));
         mc.add(new mezmurcat(R.drawable.sdalogo,"የቀበና ቤ/ክ መዘምራን"));
         mc.add(new mezmurcat(R.drawable.sdalogo,"ዘማሪ ተፈራ ወ/ማሪያም"));
@@ -67,6 +70,7 @@ public class catagoryFragment extends Fragment implements CatonClick {
         mc.add(new mezmurcat(R.drawable.sdalogo,"የሌስፕራንስ ቤ/ክ መዘምራን"));
         mc.add(new mezmurcat(R.drawable.sdalogo,"ዘማሪ ማሞ ጴጥሮስ"));
         mc.add(new mezmurcat(R.drawable.sdalogo,"ዘማሪ ሰላሙ ታገሰ"));
+        mc.add(new mezmurcat(R.drawable.sdalogo,"ዘማሪ ጴጥሮስ ሐንዲሶ"));
 
 
 
