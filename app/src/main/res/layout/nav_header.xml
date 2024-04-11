@@ -37,7 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
-        android:text="የሐዋሳ ታቦር ቤ/ክ የመዝሙር መተግበርያ"
+        android:text="የሐዋሳ ታቦር አድቬንቲስት ቤ/ክ የመዝሙር ደብተር"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
